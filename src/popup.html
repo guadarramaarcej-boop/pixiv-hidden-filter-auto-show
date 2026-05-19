@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="appName">Pixiv Hidden Filter Auto Show</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1 class="title" data-i18n="appName">Pixiv Hidden Filter Auto Show</h1>
+        <p class="subtitle" data-i18n-html="popupSubtitle"></p>
+      </header>
+
+      <section class="row">
+        <label
+          class="switch-label"
+          for="toggle-enabled"
+          data-i18n="toggleLabel"
+        ></label>
+        <label class="switch">
+          <input type="checkbox" id="toggle-enabled" />
+          <span class="slider" aria-hidden="true"></span>
+        </label>
+      </section>
+
+      <p class="status" id="status" data-i18n="statusLoading"></p>
+
+      <section class="row">
+        <label
+          class="switch-label"
+          for="toggle-redirect"
+          data-i18n="toggleRedirectLabel"
+        ></label>
+        <label class="switch">
+          <input type="checkbox" id="toggle-redirect" />
+          <span class="slider" aria-hidden="true"></span>
+        </label>
+      </section>
+
+      <p class="hint subtle" data-i18n="toggleRedirectHint"></p>
+
+      <button
+        type="button"
+        class="apply-btn"
+        id="apply-btn"
+        data-i18n="applyButton"
+      ></button>
+
+      <p class="hint" id="apply-result" aria-live="polite"></p>
+
+      <footer class="footer">
+        <p data-i18n-html="footerNote"></p>
+      </footer>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

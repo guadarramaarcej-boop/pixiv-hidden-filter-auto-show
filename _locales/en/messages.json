@@ -1,0 +1,74 @@
+{
+  "appName": {
+    "message": "Pixiv Hidden Filter Auto Show",
+    "description": "Extension name shown in the browser UI."
+  },
+  "appDescription": {
+    "message": "Always shows works hidden by Pixiv's search filter by automatically adding dgw=1 to every search and tag URL.",
+    "description": "Extension description shown in the browser's extensions page. Must be 132 characters or fewer for Chrome Web Store."
+  },
+  "actionTitle": {
+    "message": "Pixiv Hidden Filter Auto Show",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "popupSubtitle": {
+    "message": "Pixiv re-hides filtered works on every new search. This extension adds <code>dgw=1</code> to every search/tag URL so the hidden works are always shown.",
+    "description": "Subtitle paragraph in the popup. Contains an inline <code> tag."
+  },
+  "toggleLabel": {
+    "message": "Always show filtered Pixiv search results",
+    "description": "Label for the main on/off toggle in the popup."
+  },
+  "toggleRedirectLabel": {
+    "message": "Redirect Pixiv logo to followers feed",
+    "description": "Label for the second toggle that intercepts clicks on the Pixiv home logo."
+  },
+  "toggleRedirectHint": {
+    "message": "When on, clicking the Pixiv logo or home link sends you to your followers' new-works feed instead of the recommendations page.",
+    "description": "Helper text shown under the redirect toggle."
+  },
+  "statusLoading": {
+    "message": "Status: Loading...",
+    "description": "Status line while reading the stored setting."
+  },
+  "statusEnabled": {
+    "message": "Status: Enabled",
+    "description": "Status line when the extension is on."
+  },
+  "statusDisabled": {
+    "message": "Status: Disabled",
+    "description": "Status line when the extension is off."
+  },
+  "applyButton": {
+    "message": "Apply to current page",
+    "description": "Button that forces dgw=1 onto the active tab right now."
+  },
+  "applyApplying": {
+    "message": "Applying...",
+    "description": "Inline status while the apply request is in flight."
+  },
+  "applySuccess": {
+    "message": "Applied. The page is reloading with dgw=1.",
+    "description": "Shown after a successful apply that reloads the tab."
+  },
+  "applyNoChange": {
+    "message": "Already applied, or this is not a search page.",
+    "description": "Shown when apply was requested but no change was needed."
+  },
+  "applyNotPixiv": {
+    "message": "The active tab is not a Pixiv page.",
+    "description": "Shown when the popup tries to apply on a non-Pixiv tab."
+  },
+  "applyNoTab": {
+    "message": "No active tab found.",
+    "description": "Shown when no active tab could be queried."
+  },
+  "applyError": {
+    "message": "Could not reach the page. Try reloading the Pixiv tab.",
+    "description": "Shown when the content script does not respond."
+  },
+  "footerNote": {
+    "message": "Only runs on <code>www.pixiv.net</code>. No data is collected.",
+    "description": "Footer note in the popup. Contains an inline <code> tag."
+  }
+}

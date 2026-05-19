@@ -1,0 +1,12 @@
+# Build artifacts (attached to GitHub releases instead)
+pixiv-hidden-filter-auto-show-*.zip
+.zip-staging/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~

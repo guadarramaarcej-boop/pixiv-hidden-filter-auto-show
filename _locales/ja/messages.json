@@ -1,0 +1,74 @@
+{
+  "appName": {
+    "message": "Pixiv 非表示作品 自動表示",
+    "description": "Extension name shown in the browser UI."
+  },
+  "appDescription": {
+    "message": "Pixivの検索・タグURLに dgw=1 を自動付与し、非表示フィルターで隠された作品を常に表示します。",
+    "description": "Extension description shown in the browser's extensions page. Must be 132 characters or fewer for Chrome Web Store."
+  },
+  "actionTitle": {
+    "message": "Pixiv 非表示作品 自動表示",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "popupSubtitle": {
+    "message": "Pixivは新しい検索のたびに非表示フィルターをリセットします。この拡張機能は、すべての検索・タグURLに <code>dgw=1</code> を追加し、隠された作品を常に表示します。",
+    "description": "Subtitle paragraph in the popup. Contains an inline <code> tag."
+  },
+  "toggleLabel": {
+    "message": "Pixivの非表示フィルターを常に解除する",
+    "description": "Label for the main on/off toggle in the popup."
+  },
+  "toggleRedirectLabel": {
+    "message": "Pixivロゴをフォロー新着にリダイレクト",
+    "description": "Label for the second toggle that intercepts clicks on the Pixiv home logo."
+  },
+  "toggleRedirectHint": {
+    "message": "オンにすると、Pixivのロゴまたはホームリンクをクリックしたとき、おすすめページではなくフォロー中ユーザーの新着作品ページに移動します。",
+    "description": "Helper text shown under the redirect toggle."
+  },
+  "statusLoading": {
+    "message": "ステータス：読み込み中…",
+    "description": "Status line while reading the stored setting."
+  },
+  "statusEnabled": {
+    "message": "ステータス：有効",
+    "description": "Status line when the extension is on."
+  },
+  "statusDisabled": {
+    "message": "ステータス：無効",
+    "description": "Status line when the extension is off."
+  },
+  "applyButton": {
+    "message": "現在のページに適用",
+    "description": "Button that forces dgw=1 onto the active tab right now."
+  },
+  "applyApplying": {
+    "message": "適用中…",
+    "description": "Inline status while the apply request is in flight."
+  },
+  "applySuccess": {
+    "message": "適用しました。dgw=1 を付けてページを再読み込みします。",
+    "description": "Shown after a successful apply that reloads the tab."
+  },
+  "applyNoChange": {
+    "message": "すでに適用済み、または検索ページではありません。",
+    "description": "Shown when apply was requested but no change was needed."
+  },
+  "applyNotPixiv": {
+    "message": "現在のタブはPixivのページではありません。",
+    "description": "Shown when the popup tries to apply on a non-Pixiv tab."
+  },
+  "applyNoTab": {
+    "message": "アクティブなタブが見つかりません。",
+    "description": "Shown when no active tab could be queried."
+  },
+  "applyError": {
+    "message": "ページに接続できませんでした。Pixivのタブを再読み込みしてください。",
+    "description": "Shown when the content script does not respond."
+  },
+  "footerNote": {
+    "message": "<code>www.pixiv.net</code> でのみ動作します。データは収集しません。",
+    "description": "Footer note in the popup. Contains an inline <code> tag."
+  }
+}
