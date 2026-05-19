@@ -2,6 +2,10 @@
 pixiv-hidden-filter-auto-show-*.zip
 .zip-staging/
 
+# Private store-submission materials (kept locally, not for public repo)
+CHROME_STORE_LISTING.md
+store-promo-440x280.png
+
 # OS / editor cruft
 .DS_Store
 Thumbs.db

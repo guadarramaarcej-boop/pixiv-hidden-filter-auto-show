@@ -41,6 +41,19 @@ URL, which keeps the hidden works visible on every search.
 Firefox unloads temporary add-ons when it closes. For permanent install,
 wait for the Firefox Add-ons store listing.
 
+## Screenshots
+
+The extension at work — `dgw=1` lands in the URL automatically across both
+tag pages and search pages with other filters, and the previously-hidden
+works appear in the results:
+
+![Feature demo: dgw=1 added to tag and search URLs](docs/feature-demo.png)
+
+The popup, with the search filter toggle and the optional logo-redirect
+toggle:
+
+![Popup overview](docs/popup-overview.png)
+
 ## What the extension does
 
 - Runs only on `https://www.pixiv.net/*`.
