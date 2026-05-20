@@ -24,6 +24,22 @@ This extension is for you if you've run into any of these on Pixiv:
 If any of those sound familiar, install it and forget about it — the filter
 stays off automatically.
 
+## この拡張機能で解決できること（日本語）
+
+Pixiv の検索でこんなことに困っていませんか？
+
+- 検索すると **「検索を妨げる可能性がある作品」** として、見たい作品が
+  非表示にされてしまう。
+- 検索オプション → その他の条件 で「検索を妨げる可能性がある作品」を
+  **「表示する」に設定しても、検索するたびに「表示しない」に戻ってしまう**。
+- 以前より **検索結果が少なく表示される** ようになった。
+- Pixiv の検索結果を **すべて表示したい** / 関連性フィルターを
+  **無効にしたい** / 作品が隠されるのを **やめさせたい**。
+
+この拡張機能は、Pixiv の検索・タグページの URL に自動的に `dgw=1` を付与
+することで、このフィルターを常に無効化します。毎回設定を変更する必要は
+もうありません。インストールするだけで、検索結果が常にすべて表示されます。
+
 ## Install
 
 - **Chrome / Edge / Brave**: install from the
