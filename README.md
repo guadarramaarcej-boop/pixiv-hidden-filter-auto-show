@@ -1,11 +1,28 @@
 # Pixiv Hidden Filter Auto Show
 
-Pixiv hides a chunk of search results behind a "Works that may not be
-relevant to your search" filter, and **resets that filter on every new
-search**, so even if you click "show" once, the next query hides the works
-again. This small Chrome + Firefox extension (Manifest V3) fixes that
-behavior by automatically appending `dgw=1` to every Pixiv search and tag
-URL, which keeps the hidden works visible on every search.
+**Permanently turn off Pixiv's "Works that may not be relevant to your
+search" filter.** Pixiv hides a chunk of every search behind a banner that
+reads *"Works that may not be relevant to your search"*, and **resets that
+setting on every new search** — so even after you click "Show", the next
+query hides the works again. This small Chrome + Firefox extension (Manifest
+V3) fixes that for good: it automatically keeps the filter disabled (by
+appending `dgw=1` to every Pixiv search and tag URL), so all results stay
+visible on every search without you touching Search options ever again.
+
+## Does this solve your problem?
+
+This extension is for you if you've run into any of these on Pixiv:
+
+- Pixiv shows **"Works that may not be relevant to your search"** and hides
+  results you actually want to see.
+- You set **Search options → Other → "Works that may not be relevant to your
+  search" → Show**, but it **resets to "Hide" on the next search**.
+- Pixiv is suddenly **showing fewer search results** than it used to.
+- You want to **show all Pixiv search results** / **disable the relevance
+  filter** / **stop Pixiv hiding works** permanently.
+
+If any of those sound familiar, install it and forget about it — the filter
+stays off automatically.
 
 ## Install
 
