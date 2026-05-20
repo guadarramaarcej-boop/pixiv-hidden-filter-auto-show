@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tdogcreations.github.io/pixiv-hidden-filter-auto-show/sitemap.xml
